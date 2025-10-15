@@ -4,8 +4,8 @@ const http = require('http');
 
 const SERVER_HOST = 'Test-LEaV.aternos.me';
 const SERVER_PORT = 31944;
-const USERNAME_1 = 'Chikabot';
-const USERNAME_2 = 'ChikaBadmoosh';
+const USERNAME_1 = 'Haru';
+const USERNAME_2 = 'Fuyu';
 
 let bot1 = null;
 let bot2 = null;
