@@ -16,7 +16,8 @@ function startBot(username) {
         host: SERVER_HOST,
         port: SERVER_PORT,
         username,
-        offline: true
+        offline: true,
+        version: "1.26.0" // ✅ FIX
     });
 
     bot.on('login', () => console.log(`[BOT] ${username} Logged in.`));
