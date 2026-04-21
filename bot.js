@@ -2,8 +2,8 @@ const bedrock = require('bedrock-protocol');
 const express = require('express');
 const http = require('http');
 
-const SERVER_HOST = 'Test-LEaV.aternos.me';
-const SERVER_PORT = 31944;
+const SERVER_HOST = 'F0rsak3nLand.aternos.me';
+const SERVER_PORT = 57963;
 const USERNAME_1 = 'Haru';
 const USERNAME_2 = 'Fuyu';
 
@@ -16,8 +16,7 @@ function startBot(username) {
         host: SERVER_HOST,
         port: SERVER_PORT,
         username,
-        offline: true,
-        version: "1.26.0" // ✅ FIX
+        offline: true
     });
 
     bot.on('login', () => console.log(`[BOT] ${username} Logged in.`));
